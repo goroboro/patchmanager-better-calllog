@@ -1,0 +1,18 @@
+Name: roboro-better-calllog
+Summary: roboro-better-calllog
+Version: 0.1
+Release: 1
+Group: Qt/Qt
+URL: http://example.org/
+License: TODO
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: "The roboro-better-calllog contains a patch to\nthe voicecall-ui included on the Jolla to fix\nthe problem where numbers were not shown for contact names\nin the calllog and in the dialer.\n This patch is intended to be used with patchmanager."
+Configure: none
+Builder: none
+PkgConfigBR: []
+Requires:
+- patchmanager
+Files:
+- '%{_datadir}/patchmanager/patches'
+PkgBR: [] 
