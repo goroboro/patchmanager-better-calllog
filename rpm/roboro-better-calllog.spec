@@ -40,7 +40,7 @@ This patch is intended to be used with patchmanager.
 rm -rf %{buildroot}
 # >> install pre
 mkdir -p %{buildroot}/usr/share/patchmanager/patches/
-mv src/roboro-better-calllog %{buildroot}/usr/share/patchmanager/patches/
+mv src/roboro-better-callog %{buildroot}/usr/share/patchmanager/patches/
 # << install pre
 
 # >> install post
